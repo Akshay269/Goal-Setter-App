@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@500&display=swap');
 
 * {
   margin: 0;
@@ -41,6 +41,13 @@ h3 {
   margin: 0 auto;
   padding: 0 20px;
   text-align: center;
+}
+
+.logo{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+
 }
 
 .header {
