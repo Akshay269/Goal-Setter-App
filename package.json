@@ -4,10 +4,10 @@
   "description": "Goalsetter app for youtube ",
   "main": "server.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "start": "node server.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "nodemon server.js",
-    "client": "cd frontend && npm start"
+    "build":"cd frontend && npm run build"
+    
   },
   "author": "AkshayR",
   "license": "ISC",
